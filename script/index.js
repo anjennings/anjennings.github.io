@@ -1,9 +1,5 @@
-import axios from 'axios';
-
 console.log('Penis');
 
-axios.get('https://api.github.com/users/anjennings/repos')
-	.then(response => {
-		console.log(response.data)
-	})
-	.catch(error => console.error(error));
+fetch('http://example.com/movies.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
