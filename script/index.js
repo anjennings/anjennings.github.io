@@ -1,5 +1,8 @@
-console.log('Penis');
+console.log('pringles');
 
-fetch('http://example.com/movies.json')
+
+let data = fetch('https://api.github.com/users/anjennings/repos')
   .then(response => response.json())
-  .then(data => console.log(data));
+  .then(function(data){
+	  console.log(data);
+  });
