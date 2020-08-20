@@ -1,10 +1,19 @@
 .fullName {
 	font-weight: bold;
-	text-align: center;
 	font: Georgia, serif;
 }
 
 .subtitles {
 	font-weight: bold;
-	text-align: center;
+}
+
+.emailAddress {
+}
+
+.header {
+	text-align: left;
+	background-color: #0072FF;
+	color: white;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+	padding-left: 5%;
 }
