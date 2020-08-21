@@ -1,0 +1,38 @@
+.about {
+	text-align: center;
+}
+.greeting {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.intro {
+	white-space: pre-wrap;
+	font-size: 24px;
+}
+
+.links a {
+	padding: 12px;
+	font-size: 24px;
+	text-align: left;
+	color: blue;
+}
+
+.links a:hover {
+	border-radius: 4px;
+	background-color: #b1b1b1;
+}
+
+.about {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+}
+
+.aboutMe {
+	background-color: #e2e2e2;
+	border-radius: 20px;
+}
+
+.list {
+	text-align: center;
+}

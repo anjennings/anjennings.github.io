@@ -3,11 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
+import { HeaderComponent } from './header/header.component';
+import { LinksComponent } from './links/links.component';
+import { RepoShowcaseComponent } from './repo-showcase/repo-showcase.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent
+    PageComponent,
+    HeaderComponent,
+    LinksComponent,
+    RepoShowcaseComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule

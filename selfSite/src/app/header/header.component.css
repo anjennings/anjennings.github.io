@@ -1,0 +1,37 @@
+.header {
+	overflow: hidden;
+	padding: 1%;
+	background-color: #e2e2e2;
+}
+
+.fullName {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.rightSide {
+	float: right;
+	padding: 2%;
+}
+
+.leftSide {
+	float: left;
+}
+
+.description {
+	font-size: 24px;
+}
+
+.links a {
+	padding: 12px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.links a:hover {
+	border-radius: 4px;
+	background-color: #b1b1b1;
+}
+
+	
