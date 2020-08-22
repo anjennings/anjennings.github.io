@@ -8,8 +8,22 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   constructor() { }
+  
+  selected = 'about'
 
   ngOnInit(): void {
+	  this.selected = 'about'
   }
 
+  selectAbout(){
+	  this.selected = 'about';
+  }
+  
+  selectBlog(){
+	  this.selected = 'blog';
+  }
+  
+  selectProjects(){
+	  this.selected = 'projects'
+  }
 }
