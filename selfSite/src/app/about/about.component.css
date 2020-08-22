@@ -18,6 +18,20 @@
 	color: blue;
 }
 
+button {
+	color: white;
+	text-align: center;
+	background-color: #b1b1b1;
+	border: none;
+	border-radius: 2px;
+	font-size: 18px;
+	padding: 1%;
+}
+
+.quick {
+	padding-bottom: 3%;
+}
+
 .links a:hover {
 	border-radius: 4px;
 	background-color: #b1b1b1;

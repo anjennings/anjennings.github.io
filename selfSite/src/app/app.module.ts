@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { LinksComponent } from './links/links.component';
 import { RepoShowcaseComponent } from './repo-showcase/repo-showcase.component';
 import { AboutComponent } from './about/about.component';
+import { KnowMoreComponent } from './know-more/know-more.component';
+import { BlogComponent } from './blog/blog.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     LinksComponent,
     RepoShowcaseComponent,
-    AboutComponent
+    AboutComponent,
+    KnowMoreComponent,
+    BlogComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule
