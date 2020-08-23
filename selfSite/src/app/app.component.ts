@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'selfSite';
-  active_tab = 'about';
+	
+  active_tab: string = 'about';
+  activeChange(event) {
+	  this.active_tab = event;
+  }
+  
 }

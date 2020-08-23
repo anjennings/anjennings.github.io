@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -9,21 +9,29 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
   
-  selected = 'about'
+  @Input()
+  active_tab = 'about'
+  
+  @Output()
+  change: EventEmitter<string> = new EventEmitter<string>();
 
   ngOnInit(): void {
-	  this.selected = 'about'
+	  this.active_tab = 'about'
+	  this.change.emit(this.active_tab);
   }
 
   selectAbout(){
-	  this.selected = 'about';
+	  this.active_tab = 'about';
+	  this.change.emit(this.active_tab);
   }
   
   selectBlog(){
-	  this.selected = 'blog';
+	  this.active_tab = 'blog';
+	  this.change.emit(this.active_tab);
   }
   
   selectProjects(){
-	  this.selected = 'projects'
+	  this.active_tab = 'projects'
+	  this.change.emit(this.active_tab);
   }
 }

@@ -2,7 +2,10 @@
 <head></head>
 
 <body>
-	<app-header></app-header>
+	<app-header
+		[active_tab]="active_tab"
+		(change)="activeChange($event)">
+	</app-header>
 	<div id="mainBody">
 		<app-about *ngIf="active_tab === 'about'"></app-about>
 		<app-blog *ngIf="active_tab === 'blog'"></app-blog>
