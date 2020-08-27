@@ -5,6 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'personalWebsite';
+	
+  active_tab: string = 'about';
+  activeChange(event) {
+	  this.active_tab = event;
+  }
+  
 }

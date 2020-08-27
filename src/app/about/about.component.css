@@ -1,0 +1,51 @@
+.about {
+	
+	padding-bottom: 2%;
+	background-color: #C4A381;
+	border-radius: 10px;
+	color: #231123
+}
+.greeting {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.intro {
+	white-space: pre-wrap;
+	font-size: 24px;
+	text-align: center;
+}
+
+a {
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 24px;
+	text-align: left;
+	color: #EFF7FF;
+	text-decoration: none;
+}
+
+button {
+	color: black;
+	text-align: center;
+	background-color: #558C8C;
+	border: none;
+	border-radius: 2px;
+	font-size: 18px;
+	padding: 1%;
+}
+
+.quick {
+	padding-bottom: 3%;
+	text-align: center;
+}
+
+a:hover {
+	border-radius: 4px;
+	background-color: #558C8C;
+}
+
+#extra {
+	text-align: center;
+}
