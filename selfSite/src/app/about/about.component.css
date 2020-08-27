@@ -1,8 +1,9 @@
 .about {
 	
 	padding-bottom: 2%;
-	background-color: #EDC7B7;
+	background-color: #C4A381;
 	border-radius: 10px;
+	color: #231123
 }
 .greeting {
 	font-size: 36px;
@@ -21,14 +22,14 @@ a {
 	padding-right: 12px;
 	font-size: 24px;
 	text-align: left;
-	color: blue;
+	color: #EFF7FF;
 	text-decoration: none;
 }
 
 button {
 	color: black;
 	text-align: center;
-	background-color: #BAB2B5;
+	background-color: #558C8C;
 	border: none;
 	border-radius: 2px;
 	font-size: 18px;
@@ -42,7 +43,7 @@ button {
 
 a:hover {
 	border-radius: 4px;
-	background-color: #BAB2B5;
+	background-color: #558C8C;
 }
 
 #extra {

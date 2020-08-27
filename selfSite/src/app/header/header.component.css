@@ -1,7 +1,7 @@
 .header {
 	overflow: hidden;
-	background-color: #AC3B61;
-	color: black;
+	background-color: #231123;
+	color: #EFF7FF;
 }
 
 .fullName {
@@ -34,7 +34,7 @@
 
 .links a:hover {
 	border-radius: 20px;
-	background-color: #b1b1b1;
+	background-color: #558C8C;
 }
 
 	
