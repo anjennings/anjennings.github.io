@@ -1,0 +1,19 @@
+body {
+	background-color: #82204A;
+	position:absolute;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+	left:0;
+	right:0;
+
+    width: 100%;
+	height: 100%;
+}
+
+#mainBody {
+	padding-left: 10%;
+	padding-right: 10%;
+}

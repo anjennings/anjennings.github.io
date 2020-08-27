@@ -1,0 +1,40 @@
+.header {
+	overflow: hidden;
+	background-color: #231123;
+	color: #EFF7FF;
+}
+
+.fullName {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.rightSide {
+	float: right;
+	padding-top: 2%;
+	padding-right: 15%;
+}
+
+.leftSide {
+	float: left;
+	padding-top: 1%;
+	padding-left: 15%;
+}
+
+.description {
+	font-size: 18px;
+}
+
+.links a {
+	padding: 18px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.links a:hover {
+	border-radius: 20px;
+	background-color: #558C8C;
+}
+
+	
