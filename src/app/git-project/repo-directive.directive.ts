@@ -1,8 +1,10 @@
 import { Directive, ViewContainerRef } from '@angular/core';
 
 @Directive({
-  selector: '[projectContainer]',
+  selector: '[appRepoDirective]'
 })
-export class gitProjectDirective {
+export class RepoDirectiveDirective {
+
   constructor(public viewContainerRef: ViewContainerRef) { }
+
 }
