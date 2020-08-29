@@ -23,13 +23,16 @@ export class ProjectsComponent implements OnInit {
 			let repos = [];
 			
 			data.forEach(element => {
-				console.log(element);
 				let name = element.name;
 				let url = element.html_url;
 				let lang = element.language;
 				let license = ((element.license === null) ? 'none' : element.license.name);
-				
-				repos.push({"name": name, "url": url, "mainLang": lang, "license": license});
+				let updated = ((element.updated_at === null) ? 'N/A' : element.updated_at);
+				updated = updated.toString().substring(0,10);
+				repos.push({"name": name, "url": url, "mainLang": lang, "license": license, "updated":updated});
+			});
+			repos.sort(function(obj1, obj2){
+				return obj1.updated < obj2.updated ? 1 : -1;
 			});
 			return repos;
 		});

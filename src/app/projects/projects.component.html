@@ -1,13 +1,14 @@
-<div class="about">
+<div class="projects">
 	<p class="intro">
-		These are my Github Repos:
+		My Active Github Repos:
 	</p>
-	<div *ngFor="let repo of gitRepos">
-		<div>
+	<div *ngFor="let repo of gitRepos" id="loop">
+		<div id="gitRepo">
 		<a href={{repo.url}}>
-			<h2>{{repo.name}}</h2>
-			<h3>Main Language: {{repo.mainLang}}</h3>
-			<h3>License: {{repo.license}}</h3>
+			<h1 id="repoName">{{repo.name}}</h1>
+			<h2 id="repoLang">Main Language: {{repo.mainLang}}</h2>
+			<!--<h3 id="repoLicense">License: {{repo.license}}</h3>-->
+			<h3 id="repoUpdate">Last Updated: {{repo.updated}}</h3>
 		</a>
 		</div>
 	</div>

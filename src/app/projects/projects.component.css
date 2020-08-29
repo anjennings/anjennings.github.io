@@ -1,4 +1,4 @@
-.about {
+.projects {
 	
 	padding-bottom: 2%;
 	background-color: #C4A381;
@@ -29,6 +29,25 @@ button {
 	border-radius: 2px;
 	font-size: 18px;
 	padding: 1%;
+}
+
+#gitRepo {
+	border-style: solid;
+	border-color: #231123;
+	padding-left: 2%;
+	background-color: #558C8C;
+}
+
+#loop {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 2%;
+}
+
+#repoName {
+}
+
+#repoLang {
 }
 
 
