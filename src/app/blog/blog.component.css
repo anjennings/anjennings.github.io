@@ -1,0 +1,22 @@
+.blog {	
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #C4A381;
+	border-radius: 10px;
+	color: #231123
+}
+
+.intro {
+	white-space: pre-wrap;
+	font-size: 24px;
+	text-align: center;
+}
+
+a {
+	color: #EFF7FF;
+	text-decoration: none;
+}
+
+a:hover {
+
+}
