@@ -1,0 +1,13 @@
+.main {
+	
+	padding-bottom: 1%;
+	padding-top: 5px;
+	background-color: #C4A381;
+	border-radius: 10px;
+	color: #231123
+}
+
+body {
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+}

@@ -8,7 +8,7 @@
 
 .intro {
 	white-space: pre-wrap;
-	font-size: 24px;
+	font-size: 36px;
 	text-align: center;
 }
 
@@ -42,12 +42,6 @@ button {
 	padding-left: 15%;
 	padding-right: 15%;
 	padding-bottom: 2%;
-}
-
-#repoName {
-}
-
-#repoLang {
 }
 
 
