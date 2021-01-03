@@ -1,21 +1,19 @@
-<div class="about">
-	<div class="header">
-		<p class="greeting">
-			{{ greeting }}
-		</p>
-		<p class="intro">
-			My name is Aidan Jennings, I am a Computer Engineering student at UW Madison.<br>
-			I enjoy working on Embedded Systems, Web Development, and Circuit Design.
-		</p>
-		<div class="quick">
-			<a href="https://github.com/anjennings/anjennings.github.io/raw/master/src/assets/Resume.pdf">Resume</a>
-			<a href="https://github.com/anjennings/">Github</a>
-			<a href="https://www.linkedin.com/in/aidan-jennings-2568aa158/">LinkedIn</a>
-			<a href="https://www.youtube.com/channel/UCSVpb6bEE-Lr-asIB4e1B7A/featured">Youtube</a>
-		</div>
-		<div id="extra">
-			<button class="reveal" (click)="knowMore()">Would you like to know more?</button>
-			<app-know-more *ngIf="showKnowMore"></app-know-more>
-		</div>
+<body>
+	<p class="greeting">
+		{{ greeting }}
+	</p>
+	<p class="intro">
+		My name is Aidan Jennings, I am a Computer Engineering student at UW Madison.<br>
+		I enjoy working on Embedded Systems, Web Development, and Circuit Design.
+	</p>
+	<div class="quick">
+		<a href="https://github.com/anjennings/anjennings.github.io/raw/master/src/assets/Resume.pdf">Resume</a>
+		<a href="https://github.com/anjennings/">Github</a>
+		<a href="https://www.linkedin.com/in/aidan-jennings-2568aa158/">LinkedIn</a>
+		<a href="https://www.youtube.com/channel/UCSVpb6bEE-Lr-asIB4e1B7A/featured">Youtube</a>
 	</div>
-</div>
+	<div id="extra">
+		<button class="reveal" (click)="knowMore()">Would you like to know more?</button>
+		<app-know-more *ngIf="showKnowMore"></app-know-more>
+	</div>
+</body>

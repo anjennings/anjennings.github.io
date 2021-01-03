@@ -11,6 +11,7 @@ import { KnowMoreComponent } from './know-more/know-more.component';
 import { BlogComponent } from './blog/blog.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { RepoDirectiveDirective } from './git-project/repo-directive.directive';
+import { BodyFrameComponent } from './body-frame/body-frame.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { RepoDirectiveDirective } from './git-project/repo-directive.directive';
     KnowMoreComponent,
     BlogComponent,
     ProjectsComponent,
-    RepoDirectiveDirective
+    RepoDirectiveDirective,
+    BodyFrameComponent
   ],
   imports: [
     BrowserModule

@@ -8,15 +8,19 @@
 
 .intro {
 	white-space: pre-wrap;
-	font-size: 24px;
+	font-size: 36px;
 	text-align: center;
+}
+
+.postList {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 2%;
 }
 
 a {
 	color: #EFF7FF;
 	text-decoration: none;
-}
-
-a:hover {
-
 }
