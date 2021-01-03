@@ -2,18 +2,8 @@
 <head></head>
 
 <body>
-	<app-header
-		[active_tab]="active_tab"
-		(change)="activeChange($event)">
-	</app-header>
+	<app-header [active_tab]="active_tab" (change)="activeChange($event)"></app-header>
 	<div id="mainBody">
-		<!--
-		<app-about *ngIf="active_tab === 'about'"></app-about>
-		<app-blog *ngIf="active_tab === 'blog'"></app-blog>
-		<app-projects *ngIf="active_tab === 'projects'"></app-projects>
-		-->
-		<app-body-frame
-			[active_tab]="active_tab"
-		></app-body-frame>
+		<app-body-frame [active_tab]="active_tab"></app-body-frame>
 	</div>
 </body>
